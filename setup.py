@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
 # python setup.py sdist bdist_wheel
 # twine upload dist/*
-
 setup(
     name='abhinav_greeting',
-    version='0.4',
+    version='0.6',
     packages=find_packages(),
     description='A simple Python package that provides personalized greetings.',
     long_description=open('README.md').read(),
